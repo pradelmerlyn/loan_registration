@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:sprint3_activity/core/util/network/json_response_converter.dart';
+import 'package:loan_registration/core/util/network/json_response_converter.dart';
 
 class DioInstance {
   static Dio init({

@@ -16,9 +16,9 @@ class LoanRegistrationState extends Equatable {
 
   const LoanRegistrationState({
     this.currentStep = 1,
-    this.stepLabel = '',
+    this.stepLabel = 'Borrower',
     this.completionPercentage = 20,
-    this.buttonLabel = '',
+    this.buttonLabel = 'Next',
   });
 
   LoanRegistrationState copyWith({

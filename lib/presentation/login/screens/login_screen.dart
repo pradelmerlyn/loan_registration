@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sprint3_activity/presentation/loan_registration/screens/loan_registration_screen.dart';
-import 'package:sprint3_activity/presentation/login/widgets/application_option.dart';
-import 'package:sprint3_activity/presentation/widgets/button_outlined.dart';
-import 'package:sprint3_activity/presentation/widgets/form_textfield.dart';
-import 'package:sprint3_activity/presentation/widgets/text_links.dart';
+import 'package:loan_registration/presentation/loan_registration/screens/loan_registration_screen.dart';
+import 'package:loan_registration/presentation/login/widgets/application_option.dart';
+import 'package:loan_registration/presentation/widgets/button_outlined.dart';
+import 'package:loan_registration/presentation/widgets/form_textfield.dart';
+import 'package:loan_registration/presentation/widgets/text_links.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

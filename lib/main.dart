@@ -1,6 +1,8 @@
+
 import 'package:flutter/material.dart';
-import 'package:sprint3_activity/core/util/theme/custom_app_theme.dart';
-import 'package:sprint3_activity/presentation/login/screens/login_screen.dart';
+
+import 'core/util/theme/custom_app_theme.dart';
+import 'presentation/login/screens/login_screen.dart';
 void main() {
   runApp(const MyApp());
 }

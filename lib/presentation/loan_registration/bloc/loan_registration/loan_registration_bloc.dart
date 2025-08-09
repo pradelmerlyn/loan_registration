@@ -16,7 +16,7 @@ class LoanRegistrationBloc
       NextStepsEvent event, Emitter<LoanRegistrationState> emit) async {
     final nextStep = (state.currentStep + 1);
     final percentage = (state.completionPercentage + 20);
-
+    debugPrint('_onNextStep: $_getButtonLabel(nextStep)');
     emit(state.copyWith(
       currentStep: nextStep,
       completionPercentage: percentage,
